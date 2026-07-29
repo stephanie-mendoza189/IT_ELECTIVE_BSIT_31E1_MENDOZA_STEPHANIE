@@ -8,4 +8,4 @@ Project Description:  This ASP.NET Core MVC application demonstrates the fundame
 It accepts user credentials, automatically binds form input to a C# ViewModel, validates inputs against predefined rules using ModelState.IsValid, verifies 
 hard-coded credentials which is admin and 123456 and redirects successful logins to a Welcome page using RedirectToAction().
 
-YouTube Video: 
+YouTube Video: https://youtu.be/tTUKes07eSc?si=2G2LSGvKPQdCGFYD
