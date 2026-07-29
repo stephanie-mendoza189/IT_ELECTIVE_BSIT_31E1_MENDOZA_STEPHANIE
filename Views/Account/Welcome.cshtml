@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #ffe6ea 0%, #ffccd5 100%);
+        min-height: 100vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .welcome-card {
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px 0 rgba(255, 182, 193, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        padding: 3rem;
+        margin-top: 6rem;
+    }
+
+        .welcome-card h1 {
+            color: #d63384;
+            font-weight: 700;
+        }
+
+        .welcome-card p {
+            color: #8c5366;
+        }
+</style>
+
+<div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+        <div class="welcome-card">
+            <h1 class="display-4 mb-3">Welcome! ✨</h1>
+            <p class="lead mb-4">You have successfully logged in to the application.</p>
+            <a asp-action="Login" class="btn btn-outline-danger border-2 rounded-pill px-4">Log Out</a>
+        </div>
+    </div>
+</div>
