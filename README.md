@@ -9,3 +9,10 @@ It accepts user credentials, automatically binds form input to a C# ViewModel, v
 hard-coded credentials which is admin and 123456 and redirects successful logins to a Welcome page using RedirectToAction().
 
 YouTube Video: https://youtu.be/tTUKes07eSc?si=2G2LSGvKPQdCGFYD
+
+Technologies Used: 
+- C#
+- ASP.NET Core MVC
+- Razor Views
+- Data Annotations
+- Model Binding 
